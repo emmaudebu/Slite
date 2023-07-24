@@ -18,7 +18,7 @@ const Hero = () => {
         Slite is a modern knowledge base that drives action with structured
         docs, thoughtful <br></br> collaboration and confident decision-making.
       </p>
-      <div className=" rounded-full md:w-96 w-[74vw]  ml-10  border-2 border-gray-500 md:mx-auto my-16">
+      <div className=" rounded-full md:w-96 w-[80vw]  ml-10  border-2 border-gray-500 md:mx-auto my-16">
         <input
           type="text"
           className=" md:h-[3.5rem] h-12 md:w-1/2  w-1/2 outline-none focus:outline-none bg-transparent rounded-full  p-2 px-auto "
