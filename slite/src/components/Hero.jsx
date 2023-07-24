@@ -21,12 +21,12 @@ const Hero = () => {
       <div className=" rounded-full md:w-96 w-[74vw]  ml-10  border-2 border-gray-500 md:mx-auto my-16">
         <input
           type="text"
-          className=" h-[3.5rem]  md:w-1/2  w-1/2 outline-none focus:outline-none bg-transparent rounded-full  p-2 px-auto "
+          className=" md:h-[3.5rem] h-12 md:w-1/2  w-1/2 outline-none focus:outline-none bg-transparent rounded-full  p-2 px-auto "
           placeholder="name@company.com"
           color="#98999A"
         />
 
-        <button className=" h-[3.5rem] w-1/2 md:w-1/2  rounded-full text-white bg-blue-500 cursor-pointer scale-105   ">
+        <button className=" md:h-[3.5rem] h-12 w-1/2 md:w-1/2  rounded-full text-white bg-blue-500 cursor-pointer scale-105   ">
           {" "}
           Start for free
         </button>
