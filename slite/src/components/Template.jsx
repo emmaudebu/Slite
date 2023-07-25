@@ -13,7 +13,15 @@ const Template = () => {
       <button className=" border-2 border-slate-600 px-5 py-3 w-60 my-5 rounded-full">
         Browse templates
       </button>
-      <section className=" bg-div w-[15.75rem]"></section>
+
+      <div className=" flex bg-div">
+        <section className="  bg-white h-[252px] min-w-[190px] rounded-lg p-5 pb-8 flex justify-between items-center flex-col relative">
+          <p>Text will be here</p>
+          <span
+            className={`absolute w-[105px] h-[103.5px] rounded-full bottom-8 bg-red-600`}
+          ></span>
+        </section>
+      </div>
     </div>
   );
 };

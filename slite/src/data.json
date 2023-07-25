@@ -1,0 +1,40 @@
+[
+  {
+    "img": "./assets/images/images/kite.png",
+    "text": "Employee Handbook"
+  },
+  {
+    "img": "./assets/images/images/timepng",
+    "text": "Weekly Reviews",
+    "color": "#EEBACB"
+  },
+  {
+    "img": "./assets/images/images/s.png",
+    "text": "Products Planning",
+    "color": "#176AE5"
+  },
+  {
+    "img": "./assets/images/images/file.png",
+    "text": "OnBording CheckList"
+  },
+  {
+    "img": "./assets/images/images/file.png",
+    "text": "OnBording CheckList",
+    "color": "#F67748"
+  },
+  {
+    "img": "./assets/images/images/thought.png",
+    "text": "Product Spec",
+    "color": "#f9efe4"
+  },
+  {
+    "img": "./assets/images/images/star.png",
+    "text": "Talent Accquisitions",
+    "color": "#EEBACB"
+  },
+  {
+    "img": "./assets/images/images/star.png",
+    "text": "Talent Accquisitions",
+    "color": "#F67748"
+  }
+]
