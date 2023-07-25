@@ -39,7 +39,13 @@ const Hero = () => {
           8:45 aM - PDT
         </span>
         <div className=" card bg-white rounded-md h-[7rem] w-[26rem] shadow-md absolute top-11"></div>
-        <div className=" bg-white rounded-md h-[6.5rem] w-[28rem] absolute top-11 shadow-md "></div>
+        <div className=" bg-white rounded-md h-[6.5rem] w-[28rem] absolute top-11 shadow-md  py-5  flex justify-start pl-10 items-center  ">
+          <img src={pile} alt="" className=" w-[4.5rem]" />{" "}
+          <section className=" pl-5 ">
+            <p className=" font-semibold">Georges made some changes</p>
+            <p>The abnormal guide to remote</p>
+          </section>
+        </div>
         <div className=" bg-white rounded-md h-[6rem] w-[30rem] absolute top-11 shadow-md animate-bounce py-5  flex justify-start pl-10 items-center ">
           <img src={pile} alt="" className=" w-[4.5rem]" />{" "}
           <section className=" pl-5 ">

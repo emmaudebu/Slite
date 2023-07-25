@@ -1,5 +1,6 @@
 import "./App.css";
 import Hero from "./components/Hero";
+import Knowledge from "./components/Knowledge";
 import Nav from "./components/Nav";
 import Partners from "./components/Partners";
 
@@ -9,6 +10,7 @@ function App() {
       <Nav />
       <Hero />
       <Partners />
+      <Knowledge />
     </main>
   );
 }
