@@ -4,7 +4,7 @@ import nuro from "../assets/images/images/nurosound.png";
 import creative from "../assets/images/images/creative.png";
 
 const Knowledge = () => {
-  const [Banner, setBanner] = useState("");
+  const [Banner, setBanner] = useState(wike);
 
   return (
     <div className=" bg-[#F9EFE4] py-10 px-5">
