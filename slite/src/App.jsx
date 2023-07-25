@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Knowledge from "./components/Knowledge";
 import Nav from "./components/Nav";
 import Partners from "./components/Partners";
+import Template from "./components/Template";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Partners />
       <Knowledge />
+      <Template />
     </main>
   );
 }

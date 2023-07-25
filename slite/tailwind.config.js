@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        frame: "url('../src/assets/images/images/frame.png')",
+        div: "url('../src/assets/images/images/div.png')",
       },
     },
   },
