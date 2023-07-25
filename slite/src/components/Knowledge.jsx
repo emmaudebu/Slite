@@ -13,35 +13,35 @@ const Knowledge = () => {
       </section>
       <section className="flex md:mx-12 flex-col md:flex-row gap-5 md:gap-[5rem] items-center justify-center">
         <div className=" w-full md:w-1/12 flex flex-row md:flex-col md:gap-5 gap-1 flex-wrap px-5">
-          <button className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto">
+          <button className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md">
             Wiki
           </button>
-          <button className=" bg-white  w-1/3 md:w-[8rem] h-[3rem] rounded-md ">
-            Wiki
+          <button className=" bg-white  w-1/3 md:w-[8rem] h-[3rem] rounded-md shadow-md ">
+            Projects
           </button>
-          <button className=" bg-white w-1/4 md:w-[8rem] h-[3rem] rounded-md p-auto">
-            Wiki
+          <button className=" bg-white w-1/4 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md">
+            Processes
           </button>
-          <button className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto">
-            Wiki
+          <button className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md">
+            Onboarding
           </button>
-          <button className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto">
-            Wiki
+          <button className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md">
+            Meetings
           </button>
-          <button className=" bg-white w-1/4 md:w-[8rem] h-[3rem] rounded-md p-auto">
-            Wiki
+          <button className=" bg-white w-1/4 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md">
+            Team updates
           </button>
-          <button className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto">
-            Wiki
+          <button className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md">
+            1:1s
           </button>
-          <button className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto">
-            Wiki
+          <button className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md">
+            User research
           </button>
-          <button className=" bg-white w-1/4 md:w-[8rem] h-[3rem] rounded-md p-auto">
-            Wiki
+          <button className=" bg-white w-1/4 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md">
+            More →
           </button>
         </div>
-        <section className=" bg-frame  bg-no-repeat ">
+        <section className="   bg-no-repeat ">
           <img src={wiki} alt="" className=" w-[100%]" />
         </section>
       </section>
