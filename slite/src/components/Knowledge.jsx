@@ -2,6 +2,11 @@ import { React, useEffect, useState } from "react";
 import wiki from "../assets/images/images/wikiframe.png";
 import nuro from "../assets/images/images/nurosound.png";
 import creative from "../assets/images/images/creative.png";
+import dashboard from "../assets/images/images/dashboard.png";
+import deltify from "../assets/images/images/deltify.png";
+import archi from "../assets/images/images/archi.png";
+import loud from "../assets/images/images/yoruba.png";
+import tailwind from "../assets/images/images/tailwind.png";
 
 const Knowledge = () => {
   const [Banner, setBanner] = useState(wiki);
@@ -35,19 +40,34 @@ const Knowledge = () => {
           >
             Processes
           </button>
-          <button className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md">
+          <button
+            className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md"
+            onClick={() => setBanner(dashboard)}
+          >
             Onboarding
           </button>
-          <button className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md">
+          <button
+            className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md"
+            onClick={() => setBanner(deltify)}
+          >
             Meetings
           </button>
-          <button className=" bg-white w-1/4 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md">
+          <button
+            className=" bg-white w-1/4 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md"
+            onClick={() => setBanner(archi)}
+          >
             Team updates
           </button>
-          <button className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md">
+          <button
+            className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md"
+            onClick={() => setBanner(loud)}
+          >
             1:1s
           </button>
-          <button className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md">
+          <button
+            className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md"
+            onClick={() => setBanner(tailwind)}
+          >
             User research
           </button>
           <button className=" bg-white w-1/4 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md">
