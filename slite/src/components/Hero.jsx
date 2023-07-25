@@ -34,13 +34,13 @@ const Hero = () => {
       <section className=" m-5 flex items-center justify-center">
         <img src={line} alt="" className=" md:h-[60vh] w-1/1 " />
       </section>
-      <section className=" flex flex-col justify-center items-center relative w-[50rem] mx-auto px-[10rem]">
+      <section className=" flex flex-col justify-center items-center relative w-[50rem] mx-auto px-[10rem] ">
         <span className=" text-gray-700 text-sm font-semibold  text-center">
           8:45 aM - PDT
         </span>
         <div className=" card bg-white rounded-md h-[7rem] w-[26rem] shadow-md absolute top-11"></div>
         <div className=" bg-white rounded-md h-[6.5rem] w-[28rem] absolute top-11 shadow-md "></div>
-        <div className=" bg-white rounded-md h-[6rem] w-[30rem] absolute top-11 shadow-md hover:animate-bounce py-5  flex justify-start pl-10 items-center ">
+        <div className=" bg-white rounded-md h-[6rem] w-[30rem] absolute top-11 shadow-md animate-bounce py-5  flex justify-start pl-10 items-center ">
           <img src={pile} alt="" className=" w-[4.5rem]" />{" "}
           <section className=" pl-5 ">
             <p className=" font-semibold">Georges made some changes</p>
