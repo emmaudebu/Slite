@@ -12,7 +12,7 @@ const Partners = () => {
       <p className="py-10 text-[#2F2F30]">
         200,000+ teams have found focus with Slite
       </p>
-      <section className=" flex justify-center items-center gap-10 pb-10">
+      <section className=" flex justify-center items-center gap-10 pb-10 flex-wrap">
         <img src={partner1} alt="" className=" hover:scale-110 " />
         <img src={partner2} alt="" className=" hover:scale-110" />
         <img src={partner3} alt="" className=" hover:scale-110" />
