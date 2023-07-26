@@ -1,21 +1,23 @@
 [
   {
     "img": "./assets/images/images/kite.png",
-    "text": "Employee Handbook"
+    "text": "Employee Handbook",
+    "color": "bg-[#f9efe4]"
   },
   {
     "img": "./assets/images/images/timepng",
     "text": "Weekly Reviews",
-    "color": "#EEBACB"
+    "color": "bg-[#EEBACB]"
   },
   {
     "img": "./assets/images/images/s.png",
     "text": "Products Planning",
-    "color": "#176AE5"
+    "color": " bg-[#176AE5]"
   },
   {
     "img": "./assets/images/images/file.png",
-    "text": "OnBording CheckList"
+    "text": "OnBording CheckList",
+    "color": "bg-[#f9efe4]"
   },
   {
     "img": "./assets/images/images/file.png",
@@ -25,7 +27,7 @@
   {
     "img": "./assets/images/images/thought.png",
     "text": "Product Spec",
-    "color": "#f9efe4"
+    "color": "bg-[#f9efe4]"
   },
   {
     "img": "./assets/images/images/star.png",
