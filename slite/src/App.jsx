@@ -1,5 +1,6 @@
 import "./App.css";
 import Hero from "./components/Hero";
+import Ideas from "./components/Ideas";
 import Knowledge from "./components/Knowledge";
 import Nav from "./components/Nav";
 import Partners from "./components/Partners";
@@ -13,6 +14,7 @@ function App() {
       <Partners />
       <Knowledge />
       <Template />
+      <Ideas />
     </main>
   );
 }

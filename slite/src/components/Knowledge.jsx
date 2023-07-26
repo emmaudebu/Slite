@@ -9,7 +9,11 @@ import loud from "../assets/images/images/yoruba.png";
 import tailwind from "../assets/images/images/tailwind.png";
 
 const Knowledge = () => {
-  const [Banner, setBanner] = useState(wiki);
+  const [Banner, setBanner] = useState("");
+
+  useEffect(() => {
+    setBanner(wiki);
+  }, []);
 
   return (
     <div className=" bg-[#F9EFE4] py-10 px-5">
@@ -21,56 +25,72 @@ const Knowledge = () => {
         </span>
       </section>
       <section className="flex md:mx-12 flex-col md:flex-row gap-5 md:gap-[5rem] items-center justify-center">
-        <div className=" w-full md:w-1/12 flex flex-row md:flex-col md:gap-5 gap-1 flex-wrap px-5">
+        <div className=" w-full md:w-1/12 flex flex-row md:flex-col md:gap-5 gap-5 items-center overflow-x-scroll md:overflow-x-visible  px-5">
           <button
-            className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md"
+            className={`${
+              Banner == wiki && "bg-white shadow-md"
+            } w-1/3 md:w-[8rem] h-[3rem] rounded-md px-5`}
             onClick={() => setBanner(wiki)}
           >
             Wiki
           </button>
           <button
-            className=" bg-white  w-1/3 md:w-[8rem] h-[3rem] rounded-md shadow-md "
+            className={`${
+              Banner == nuro && "bg-white  shadow-md"
+            } w-1/3 md:w-[8rem] h-[3rem] rounded-md  px-5 `}
             onClick={() => setBanner(nuro)}
           >
             Projects
           </button>
           <button
-            className=" bg-white w-1/4 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md"
+            className={`${
+              Banner == creative && "bg-white shadow-md"
+            } w-1/3 md:w-[8rem] h-[3rem] rounded-md  px-5 `}
             onClick={() => setBanner(creative)}
           >
-            Processes
+            Meetings
           </button>
           <button
-            className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md"
+            className={`${
+              Banner == dashboard && "bg-white  shadow-md"
+            } w-1/3 md:w-[8rem] h-[3rem] rounded-md  px-5 `}
             onClick={() => setBanner(dashboard)}
           >
             Onboarding
           </button>
           <button
-            className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md"
+            className={`${
+              Banner == deltify && "bg-white  shadow-md"
+            } w-1/3 md:w-[8rem] h-[3rem]  rounded-md  px-5`}
             onClick={() => setBanner(deltify)}
           >
-            Meetings
+            Processes
           </button>
           <button
-            className=" bg-white w-1/4 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md"
+            className={`${
+              Banner == archi && "bg-white  shadow-md"
+            } w-1/3 md:w-[8rem] h-[3rem] rounded-md  px-5`}
             onClick={() => setBanner(archi)}
-          >
-            Team updates
-          </button>
-          <button
-            className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md"
-            onClick={() => setBanner(loud)}
           >
             1:1s
           </button>
           <button
-            className=" bg-white w-1/3 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md"
+            className={`${
+              Banner == loud && "bg-white  shadow-md"
+            } w-1/3 md:w-[8rem] h-[3rem]  px-5  `}
+            onClick={() => setBanner(loud)}
+          >
+            Team updates
+          </button>
+          <button
+            className={`${
+              Banner == tailwind && "bg-white rounded-md  shadow-md"
+            }  w-1/3 md:w-[8rem] h-[3rem]  px-5`}
             onClick={() => setBanner(tailwind)}
           >
             User research
           </button>
-          <button className=" bg-white w-1/4 md:w-[8rem] h-[3rem] rounded-md p-auto shadow-md">
+          <button className=" w-1/4 md:w-[8rem] h-[3rem] rounded-md  px-5 ">
             More →
           </button>
         </div>

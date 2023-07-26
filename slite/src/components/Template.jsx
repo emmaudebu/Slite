@@ -64,7 +64,7 @@ const Template = () => {
         Browse templates
       </button>
 
-      <div className=" flex bg-div px-10 py-10 overflow-x-scroll gap-5">
+      <div className=" flex bg-div px-10 py-10 overflow-x-scroll  gap-5 pt-10">
         {Data.map((item, index) => (
           <section
             key={index}
