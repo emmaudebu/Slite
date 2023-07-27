@@ -7,6 +7,7 @@ const Nav = () => {
   const [Menu, setMenu] = useState(false);
   function show(params) {
     setMenu(!Menu);
+    console.log(Menu);
   }
 
   return (

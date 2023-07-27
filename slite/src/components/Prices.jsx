@@ -26,7 +26,7 @@ const Prices = () => {
           </p>
           <p className=" pr-[3.8rem]">
             {" "}
-            Give Slite a try. Save 16% on annual commitment. Big team? check the
+            Give Slite a try. Save 16% on annual commitment. Big team? check the{" "}
             <span className=" underline underline-offset-8">
               enterprise plan.
             </span>
