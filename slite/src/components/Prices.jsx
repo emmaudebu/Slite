@@ -20,21 +20,43 @@ const Prices = () => {
         />
       </section>
       <section className=" w-[65rem] mx-auto text-justify flex justify-around my-[12rem]">
-        <section>
-          <p>A radical change at a fair price.</p>
-          <p>
-            Give Slite a try. Save 16% on annual commitment. Big team? check the
-            enterprise plan.
+        <section className=" w-[28.5rem] h-[19.2rem]">
+          <p className=" text-5xl leading-snug my-5">
+            A radical change at a fair price.
           </p>
-          <button className=" border-2 border-slate-600 px-5 py-3 w-60 my-5 rounded-full">
-            Browse templates
-          </button>
-          <button className=" bg-[#176AE5] w-[13rem] h-[3rem] text-white mx-auto rounded-full">
-            I want that too
-          </button>
+          <p className=" pr-[3.8rem]">
+            {" "}
+            Give Slite a try. Save 16% on annual commitment. Big team? check the
+            <span className=" underline underline-offset-8">
+              enterprise plan.
+            </span>
+          </p>
+          <div className=" flex justify-start gap-2">
+            <button className=" bg-[#176AE5] w-[9rem] h-[3rem] text-white my-5  rounded-full  px-[0.8rem]">
+              Start for free
+            </button>
+            <button className=" border-2 border-slate-600 px-5 py-3 w-60 my-5 rounded-full flex items-center gap-2 justify-center">
+              Compare all plans
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M6 12.796L11.481 8 6 3.204v9.592zm.659.753l5.48-4.796a1 1 0 000-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 001.659.753z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+          </div>
         </section>
         <section className=" flex justify-around gap-11 ml-10">
-          <div className=" w-[13rem] h-[19rem] border-2 border-black rounded-md text-center flex p-5">
+          <div className=" w-[13rem] h-[19rem] border-2 border-black rounded-md text-center  p-5">
             <div className=" w-[80%] border-b-2 border-slate-700  mx-auto my-5 pb-11">
               <p className=" text-[1.35rem] font-semibold">Free</p>
               <span className=" text-xs ">Plain</span>
@@ -55,7 +77,7 @@ const Prices = () => {
             <div className=" flex justify-center items-center">
               {" "}
               <span className=" text-[1.5rem]">$</span>
-              <span className=" text-[2.7rem] font-black">0</span>
+              <span className=" text-[2.7rem] font-black">6</span>
               <sup className=" text-[0.97rem] font-black">67</sup>
               <sup className=" text-xs">/month</sup>
             </div>{" "}
