@@ -5,6 +5,8 @@ import third from "../assets/images/images/third.png";
 import fourth from "../assets/images/images/fourth.png";
 import six from "../assets/images/images/six.png";
 import five from "../assets/images/images/five.png";
+import seven from "../assets/images/images/seven.png";
+import eight from "../assets/images/images/eight.png";
 
 const Team = () => {
   return (
@@ -143,6 +145,59 @@ const Team = () => {
               </h5>
             </div>
             <img src={five} alt="five" />
+          </section>
+        </div>
+        <div className=" bg-white rounded w-[24rem] h-[21rem] shadow-md px-[2rem] pt-[3rem] pb-[2rem]">
+          <p>
+            "Slite let us bring the two most important communication bits in the
+            same place: documentation & decision-making. The connection
+          </p>
+          <p className=" bg-[#eebacb] ">
+            &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; makes decision-making more
+            efficient, transparent & contextualized
+          </p>
+
+          <section className=" flex justify-between items-center mt-[3rem]">
+            <div>
+              <h4 className=" font-bold text-[0.63rem] uppercase py-2">
+                Sebastien Gendreau
+              </h4>
+              <h5 className=" text-[0.63rem]">
+                Head of product, AgoraPulse <br /> 175+ teammates
+              </h5>
+            </div>
+            <img src={eight} alt="" />
+          </section>
+        </div>
+        <div className=" bg-white rounded w-[24rem] h-[21rem] shadow-md px-[2rem] pt-[3rem] pb-[2rem]">
+          <p>
+            The reasons why certain decisions were made can be found in one
+            place
+          </p>
+          <p className=" bg-[#eebacb] -mt-2 mb-[5rem]">
+            &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;and not scattered across different
+            Slack channels."
+          </p>
+
+          <section className=" flex justify-between items-center mt-[3rem]">
+            <div>
+              <h4 className=" font-bold text-[0.63rem] uppercase py-2">
+                by Jurgita Paulauskaite
+              </h4>
+              <h5 className=" text-[0.63rem]">
+                Customer Success, Tymeshift <br />
+                75+ teammates
+              </h5>
+            </div>
+            <img src={seven} alt="" />
+          </section>
+        </div>
+        <div className=" bg-white rounded w-[24rem] h-[21rem] shadow-md px-[2rem] pt-[3rem] pb-[2rem]">
+          <section className=" flex justify-center items-center mt-[3rem]">
+            <p className="my-10">
+              Read more <br />
+              <span className=" underline underline-offset-8">reviews →</span>
+            </p>
           </section>
         </div>
       </section>
