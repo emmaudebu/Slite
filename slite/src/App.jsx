@@ -18,8 +18,7 @@ function App() {
       <Template />
       <Ideas />
       <Prices />
-
-      {/* <Team /> */}
+      <Team />
     </main>
   );
 }
