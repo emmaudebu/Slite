@@ -5,6 +5,7 @@ import Knowledge from "./components/Knowledge";
 import Nav from "./components/Nav";
 import Partners from "./components/Partners";
 import Prices from "./components/Prices";
+import Team from "./components/Team";
 import Template from "./components/Template";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Template />
       <Ideas />
       <Prices />
+      <Team />
     </main>
   );
 }
