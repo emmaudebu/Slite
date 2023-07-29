@@ -7,6 +7,7 @@ import Partners from "./components/Partners";
 import Prices from "./components/Prices";
 import Team from "./components/Team";
 import Template from "./components/Template";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Ideas />
       <Prices />
       <Team />
+      <Footer />
     </main>
   );
 }

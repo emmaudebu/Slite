@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         div: "url('../src/assets/images/images/div.png')",
+        footerbg: "url('../src/assets/images/images/vector.svg')",
       },
     },
   },
