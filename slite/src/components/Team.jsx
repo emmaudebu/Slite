@@ -192,7 +192,7 @@ const Team = () => {
             <img src={seven} alt="" />
           </section>
         </div>
-        <div className=" bg-white rounded w-[24rem] h-[21rem] shadow-md px-[2rem] pt-[3rem] pb-[2rem]">
+        <div className=" rounded w-[24rem] h-[21rem]  px-[2rem] pt-[3rem] pb-[2rem]">
           <section className=" flex justify-center items-center mt-[3rem]">
             <p className="my-10">
               Read more <br />
@@ -200,6 +200,16 @@ const Team = () => {
             </p>
           </section>
         </div>
+      </section>
+      <section className="text-center my-24">
+        {" "}
+        <h1 className=" text-4xl font-semibold my-5">
+          Teams with clarity are teams that thrive.
+        </h1>
+        <p>Create space for your team to do their best work.</p>
+        <button className=" bg-blue-600 rounded-full px-5 py-2 my-11 text-white">
+          Sign me up
+        </button>
       </section>
     </div>
   );
