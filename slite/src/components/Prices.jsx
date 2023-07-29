@@ -4,7 +4,7 @@ import author from "../assets/images/images/auto.png";
 const Prices = () => {
   return (
     <div className="bg-[#F9EFE4] text-center py-10 ">
-      <section className=" w-[50rem] h-[13.5rem] mx-auto border-y-2 border-slate-400 relative ">
+      <section className=" w-[80vw] md:w-[50rem] md:h-[13.5rem] mx-auto border-y-2 border-slate-400 relative  pb-10 ">
         <p className="mx-auto text-center py-5">
           Slite let us bring the two most important communication bits in the
           same place:<br></br> documentation & decision-making. The connection
@@ -19,9 +19,9 @@ const Prices = () => {
           className=" absolute bottom-[-40px]  right-[120px] w-20 h-20"
         />
       </section>
-      <section className=" w-[65rem] mx-auto text-justify flex justify-around my-[12rem]">
-        <section className=" w-[28.5rem] h-[19.2rem]">
-          <p className=" text-5xl leading-snug my-5">
+      <section className=" md:w-[65rem] w-[80vw] mx-auto text-justify flex-col md:flex-row  flex my-[12rem]">
+        <section className=" md:w-[28.5rem] w-[90vw] h-[19.2rem]">
+          <p className=" md:text-5xl text-[1.9rem] leading-[2rem] md:leading-snug my-5 mr-5">
             A radical change at a fair price.
           </p>
           <p className=" pr-[3.8rem]">
@@ -31,11 +31,11 @@ const Prices = () => {
               enterprise plan.
             </span>
           </p>
-          <div className=" flex justify-start gap-2">
-            <button className=" bg-[#176AE5] w-[9rem] h-[3rem] text-white my-5  rounded-full  px-[0.8rem]">
+          <div className=" flex  flex-col md:flex-row justify-start gap-2">
+            <button className=" bg-[#176AE5] w-[80vw] md:w-[9rem] h-[3rem] text-white my-5  rounded-full  px-[0.8rem]">
               Start for free
             </button>
-            <button className=" border-2 border-slate-600 px-5 py-3 w-60 my-5 rounded-full flex items-center gap-2 justify-center">
+            <button className=" border-2 border-slate-600 px-5 py-3 w-[80vw] md:w-60 md:my-5 rounded-full flex items-center gap-2 justify-center">
               Compare all plans
               <svg
                 stroke="currentColor"
@@ -55,7 +55,7 @@ const Prices = () => {
             </button>
           </div>
         </section>
-        <section className=" flex justify-around gap-11 ml-10">
+        <section className=" md:flex-row flex-col flex md:justify-center gap-11 md:gap-10 mt-20 md:mt-0 justify-center items-center md:ml-11  ">
           <div className=" w-[13rem] h-[19rem] border-2 border-black rounded-md text-center  p-5">
             <div className=" w-[80%] border-b-2 border-slate-700  mx-auto my-5 pb-11">
               <p className=" text-[1.35rem] font-semibold">Free</p>

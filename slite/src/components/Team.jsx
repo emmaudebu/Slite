@@ -14,7 +14,7 @@ const Team = () => {
       <p className=" text-[2rem] my-[2rem] text-center">
         What happy teams have to say.{" "}
       </p>
-      <section className=" flex  flex-wrap  gap-3 item-center justify-center text-[0.9rem]">
+      <section className=" flex  flex-wrap  gap-3 item-center justify-center text-[0.9rem] px-5 md:px-0">
         <div className=" bg-white rounded w-[24rem] h-[21rem] shadow-md px-[2rem] pt-[3rem] pb-[2rem]">
           <p>"The most important thing in a wiki is</p>
           <p className=" bg-[#eebacb]">

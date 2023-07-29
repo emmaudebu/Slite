@@ -2,11 +2,12 @@ import React from "react";
 
 const Ideas = () => {
   return (
-    <div className="bg-[#F9EFE4] text-center p-24 flex justify-center flex-col">
-      <h1 className=" font-semibold leading-[4rem] text-4xl">
-        Move ideas forward. <br /> Docs, meet Discussions.
+    <div className="bg-[#F9EFE4] text-center md:p-24 p-2 flex justify-center flex-col">
+      <h1 className=" font-semibold leading-[2rem] md:leading-[4rem] md:text-4xl text-2xl">
+        Move ideas forward. <br className=" hidden md:inline" /> Docs, meet
+        Discussions.
       </h1>
-      <p className=" w-[58rem] text-center mx-auto py-10 text-[1.12rem]">
+      <p className=" w-[80vw] md:w-[58rem] text-center mx-auto py-10 text-[1.12rem]">
         Decisions don't work on their own, and neither does your team. In Slite,
         decision-making and async discussion comes built-in, inside Docs. Say
         goodbye to scattered conversations and endless Slack threads.
@@ -14,7 +15,7 @@ const Ideas = () => {
       <button className=" bg-[#176AE5] w-[13rem] h-[3rem] text-white mx-auto rounded-full">
         I want that too
       </button>
-      <section className=" bg-black w-full h-[48rem] mx-auto rounded-md mt-10 flex items-end py-5">
+      <section className=" bg-black w-full h-[60vh] md:h-[48rem] mx-auto rounded-md mt-10 flex items-end py-5">
         <button className=" bg-[#2F2F30] w-[6rem] h-[3rem] text-white mx-auto rounded-full flex items-center justify-center">
           <svg
             stroke="currentColor"
