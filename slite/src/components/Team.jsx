@@ -1,6 +1,6 @@
 import React from "react";
 import fTeam from "../assets/images/images/firstTeam.png";
-import STeam from "../assets/images/images/STeam.png";
+import Steam from "../assets/images/images/Steam.png";
 import third from "../assets/images/images/third.png";
 import fourth from "../assets/images/images/fourth.png";
 import six from "../assets/images/images/six.png";
@@ -56,7 +56,7 @@ const Team = () => {
                 CTO, Log DNA 150+ <br></br>teammates
               </h5>
             </div>
-            <img src={STeam} alt="" />
+            <img src={Steam} alt="" />
           </section>
         </div>
         <div className=" bg-white rounded w-[24rem] h-[21rem] shadow-md px-[2rem] pt-[3rem] pb-[2rem]">
