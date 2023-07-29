@@ -15,7 +15,7 @@ const Team = () => {
         What happy teams have to say.{" "}
       </p>
       <section className=" flex  flex-wrap  gap-3 item-center justify-center text-[0.9rem]">
-        <div className=" bg-red-500 rounded w-[24rem] h-[21rem] shadow-md px-[2rem] pt-[3rem] pb-[2rem]">
+        <div className=" rounded w-[24rem] h-[21rem] shadow-md px-[2rem] pt-[3rem] pb-[2rem]">
           <p>"The most important thing in a wiki is</p>
           <p className=" bg-[#eebacb]">
             &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; how tight the edit / collaboration
