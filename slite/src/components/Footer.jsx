@@ -52,19 +52,19 @@ const Footer = () => {
             <li className=" text-[0.75rem]">All comparisons</li>
           </ul>
 
-          <section className="md:w-[24rem] text-[0.75rem] text-center md:text-left w-[80vw] ">
+          <section className="md:w-[24rem] text-[0.75rem] text-center md:text-left w-[80vw] flex flex-col  ">
             <p className="text-[0.875rem] font-semibold">
               Remote letters to read on your own time
             </p>
-            <div className=" rounded-full  ml-11  border-2 border-gray-500 md:mx-auto flex justify-between my-4">
+            <div className=" rounded-full  border-2 border-gray-500 md:mx-auto flex justify-between my-4">
               <input
                 type="text"
-                className=" md:h-[2.9rem] h-[2rem] text-[0.75rem]  w-1/2 outline-none focus:outline-none bg-transparent rounded-full mr-[3rem]  p-2 px-auto "
+                className=" md:h-[2.9rem] h-[3.5rem] text-[0.75rem]  w-1/2 outline-none focus:outline-none bg-transparent rounded-full mr-[3rem]  p-2 px-auto "
                 placeholder="What's your email?"
                 color="#98999A"
               />
 
-              <button className=" md:h-[2.9rem] h-[2rem] w-1/2 md:w-1/6  rounded-full text-white bg-blue-500 cursor-pointer  px-5  ">
+              <button className=" md:h-[2.9rem] h-[3.5rem] w-1/2 md:w-1/6  rounded-full text-white bg-blue-500 cursor-pointer  px-5  ">
                 →
               </button>
             </div>
