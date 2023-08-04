@@ -10,11 +10,11 @@
 <h1 align="center">Slite</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{emmaudebu}}/slite?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/emmaudebu/slite?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{emmaudebu}}/slite?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/emmaudebu/slite?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{emmaudebu}}/slite?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/emmaudebu/slite?color=56BEB8">
 
   <img alt="License" src="https://img.shields.io/github/license/emmaudebu/slite?color=56BEB8">
 
@@ -40,7 +40,7 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{emmaudebu}}" target="_blank">Author</a>
+  <a href="https://github.com/emmaudebu" target="_blank">Author</a>
 </p>
 
 <br>
@@ -73,7 +73,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{emmaudebu}}/slite
+$ git clone https://github.com/emmaudebu/Slite
 
 # Access
 $ cd slite
@@ -91,7 +91,7 @@ $ yarn start
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
-Made with :heart: by <a href="https://github.com/{{emmaudebu}}" target="_blank">{{Ifeanyi chukwu}}</a>
+Made with :heart: by <a href="https://github.com/emmaudebu" target="_blank">Ifeanyi chukwu</a>
 
 &#xa0;
 
